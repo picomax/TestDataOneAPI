@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047B29901F6873CD00C5E456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047B29881F6873CD00C5E456 /* Assets.xcassets */; };
+		047B29911F6873CD00C5E456 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 047B29891F6873CD00C5E456 /* Info.plist */; };
+		047B29921F6873CD00C5E456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047B298B1F6873CD00C5E456 /* LaunchScreen.storyboard */; };
+		047B29931F6873CD00C5E456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047B298C1F6873CD00C5E456 /* Main.storyboard */; };
+		047B29941F6873CD00C5E456 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B298F1F6873CD00C5E456 /* ViewController.swift */; };
 		1D36D5F111E60A4C4675AABA /* Pods_TestDataOneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F1C1941C5733E1F49019B9D /* Pods_TestDataOneTests.framework */; };
 		2857F30BF47FF48BB807A607 /* Pods_TestDataOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B2C0D40BE39948C4B411B8 /* Pods_TestDataOne.framework */; };
 		F8458A781F63693B000B20AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8458A771F63693B000B20AA /* AppDelegate.swift */; };
-		F8458A7A1F63693B000B20AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8458A791F63693B000B20AA /* ViewController.swift */; };
-		F8458A7D1F63693B000B20AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8458A7B1F63693B000B20AA /* Main.storyboard */; };
-		F8458A7F1F63693B000B20AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8458A7E1F63693B000B20AA /* Assets.xcassets */; };
-		F8458A821F63693B000B20AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8458A801F63693B000B20AA /* LaunchScreen.storyboard */; };
 		F8458A8D1F63693B000B20AA /* TestDataOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8458A8C1F63693B000B20AA /* TestDataOneTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		047B29881F6873CD00C5E456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047B29891F6873CD00C5E456 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047B298B1F6873CD00C5E456 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		047B298C1F6873CD00C5E456 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		047B298F1F6873CD00C5E456 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		09B2C0D40BE39948C4B411B8 /* Pods_TestDataOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestDataOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB47ED496A5E1CE73770234 /* Pods-TestDataOneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDataOneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestDataOneTests/Pods-TestDataOneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5F1C1941C5733E1F49019B9D /* Pods_TestDataOneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestDataOneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,11 +42,6 @@
 		D43B62C78D2E390643782C17 /* Pods-TestDataOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDataOne.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestDataOne/Pods-TestDataOne.debug.xcconfig"; sourceTree = "<group>"; };
 		F8458A741F63693B000B20AA /* TestDataOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDataOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8458A771F63693B000B20AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F8458A791F63693B000B20AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F8458A7C1F63693B000B20AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F8458A7E1F63693B000B20AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F8458A811F63693B000B20AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F8458A831F63693B000B20AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8458A881F63693B000B20AA /* TestDataOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDataOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8458A8C1F63693B000B20AA /* TestDataOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDataOneTests.swift; sourceTree = "<group>"; };
 		F8458A8E1F63693B000B20AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,6 +67,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		047B29841F6873CD00C5E456 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		047B29851F6873CD00C5E456 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		047B29861F6873CD00C5E456 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		047B29871F6873CD00C5E456 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				047B29881F6873CD00C5E456 /* Assets.xcassets */,
+				047B29891F6873CD00C5E456 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		047B298A1F6873CD00C5E456 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				047B298B1F6873CD00C5E456 /* LaunchScreen.storyboard */,
+				047B298C1F6873CD00C5E456 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		047B298D1F6873CD00C5E456 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				047B298E1F6873CD00C5E456 /* root */,
+				047B298F1F6873CD00C5E456 /* ViewController.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		047B298E1F6873CD00C5E456 /* root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = root;
+			sourceTree = "<group>";
+		};
 		B17D5C4D88DFC6ABF29276F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,11 +166,12 @@
 			isa = PBXGroup;
 			children = (
 				F8458A771F63693B000B20AA /* AppDelegate.swift */,
-				F8458A791F63693B000B20AA /* ViewController.swift */,
-				F8458A7B1F63693B000B20AA /* Main.storyboard */,
-				F8458A7E1F63693B000B20AA /* Assets.xcassets */,
-				F8458A801F63693B000B20AA /* LaunchScreen.storyboard */,
-				F8458A831F63693B000B20AA /* Info.plist */,
+				047B29841F6873CD00C5E456 /* Define */,
+				047B29851F6873CD00C5E456 /* Extension */,
+				047B29861F6873CD00C5E456 /* Model */,
+				047B29871F6873CD00C5E456 /* Resource */,
+				047B298A1F6873CD00C5E456 /* Storyboard */,
+				047B298D1F6873CD00C5E456 /* UIViewController */,
 			);
 			path = TestDataOne;
 			sourceTree = "<group>";
@@ -217,9 +274,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8458A821F63693B000B20AA /* LaunchScreen.storyboard in Resources */,
-				F8458A7F1F63693B000B20AA /* Assets.xcassets in Resources */,
-				F8458A7D1F63693B000B20AA /* Main.storyboard in Resources */,
+				047B29921F6873CD00C5E456 /* LaunchScreen.storyboard in Resources */,
+				047B29911F6873CD00C5E456 /* Info.plist in Resources */,
+				047B29901F6873CD00C5E456 /* Assets.xcassets in Resources */,
+				047B29931F6873CD00C5E456 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8458A7A1F63693B000B20AA /* ViewController.swift in Sources */,
+				047B29941F6873CD00C5E456 /* ViewController.swift in Sources */,
 				F8458A781F63693B000B20AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,25 +421,6 @@
 			targetProxy = F8458A891F63693B000B20AA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F8458A7B1F63693B000B20AA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F8458A7C1F63693B000B20AA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F8458A801F63693B000B20AA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F8458A811F63693B000B20AA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F8458A8F1F63693B000B20AA /* Debug */ = {
@@ -484,7 +523,7 @@
 			baseConfigurationReference = D43B62C78D2E390643782C17 /* Pods-TestDataOne.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TestDataOne/Info.plist;
+				INFOPLIST_FILE = TestDataOne/Resource/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.hooni.TestDataOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -497,7 +536,7 @@
 			baseConfigurationReference = BD3A65DCEEFABF5754A8E50B /* Pods-TestDataOne.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TestDataOne/Info.plist;
+				INFOPLIST_FILE = TestDataOne/Resource/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.hooni.TestDataOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -554,6 +593,7 @@
 				F8458A931F63693B000B20AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8458A941F63693B000B20AA /* Build configuration list for PBXNativeTarget "TestDataOneTests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +602,7 @@
 				F8458A961F63693B000B20AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
