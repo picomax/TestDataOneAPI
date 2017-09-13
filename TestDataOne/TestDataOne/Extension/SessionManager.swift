@@ -28,7 +28,6 @@ extension SessionManager {
 }
 
 
-
 enum SDRouter: URLRequestConvertible {
     case vin(term: String)
     case movie(term: String)
