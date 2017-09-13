@@ -48,16 +48,14 @@ enum SDRouter: URLRequestConvertible {
         
         let url = urlComponent.url
         var request = URLRequest(url: url!)
+        request.addValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
         
         switch self {
         case .vin(let term):
             let decoderQuery = getDecoderQuery(term: term)
             let stringParams: String = "client_id=" + clientId + "&authorization_code=" + authorizationCode + "&decoder_query=" + decoderQuery
-            
             request.httpBody = stringParams.data(using: String.Encoding.utf8, allowLossyConversion: true)
             request.httpMethod = "POST"
-            //xmlRequest.addValue("application/xml", forHTTPHeaderField: "Content-Type")
-            request.addValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
             break
         default:
             break
