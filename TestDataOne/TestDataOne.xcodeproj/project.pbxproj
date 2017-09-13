@@ -12,6 +12,9 @@
 		047B29921F6873CD00C5E456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047B298B1F6873CD00C5E456 /* LaunchScreen.storyboard */; };
 		047B29931F6873CD00C5E456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047B298C1F6873CD00C5E456 /* Main.storyboard */; };
 		047B29941F6873CD00C5E456 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B298F1F6873CD00C5E456 /* ViewController.swift */; };
+		047B29961F6876D600C5E456 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B29951F6876D600C5E456 /* Define.swift */; };
+		047B29981F6876FE00C5E456 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B29971F6876FE00C5E456 /* SessionManager.swift */; };
+		047B299A1F688BBD00C5E456 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B29991F688BBD00C5E456 /* Vehicle.swift */; };
 		1D36D5F111E60A4C4675AABA /* Pods_TestDataOneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F1C1941C5733E1F49019B9D /* Pods_TestDataOneTests.framework */; };
 		2857F30BF47FF48BB807A607 /* Pods_TestDataOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B2C0D40BE39948C4B411B8 /* Pods_TestDataOne.framework */; };
 		F8458A781F63693B000B20AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8458A771F63693B000B20AA /* AppDelegate.swift */; };
@@ -34,6 +37,9 @@
 		047B298B1F6873CD00C5E456 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047B298C1F6873CD00C5E456 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		047B298F1F6873CD00C5E456 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		047B29951F6876D600C5E456 /* Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		047B29971F6876FE00C5E456 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		047B29991F688BBD00C5E456 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		09B2C0D40BE39948C4B411B8 /* Pods_TestDataOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestDataOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB47ED496A5E1CE73770234 /* Pods-TestDataOneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDataOneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestDataOneTests/Pods-TestDataOneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5F1C1941C5733E1F49019B9D /* Pods_TestDataOneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestDataOneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +76,7 @@
 		047B29841F6873CD00C5E456 /* Define */ = {
 			isa = PBXGroup;
 			children = (
+				047B29951F6876D600C5E456 /* Define.swift */,
 			);
 			path = Define;
 			sourceTree = "<group>";
@@ -77,6 +84,7 @@
 		047B29851F6873CD00C5E456 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				047B29971F6876FE00C5E456 /* SessionManager.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -84,6 +92,7 @@
 		047B29861F6873CD00C5E456 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				047B29991F688BBD00C5E456 /* Vehicle.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -400,6 +409,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				047B29941F6873CD00C5E456 /* ViewController.swift in Sources */,
+				047B29961F6876D600C5E456 /* Define.swift in Sources */,
+				047B29981F6876FE00C5E456 /* SessionManager.swift in Sources */,
+				047B299A1F688BBD00C5E456 /* Vehicle.swift in Sources */,
 				F8458A781F63693B000B20AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
